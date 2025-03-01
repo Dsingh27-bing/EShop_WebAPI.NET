@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "zuMrBlSQVf7hdbtlRFaRe2n+m3qHkBZbkmgliF/okRI=",
+  "Source": "ShippingMicroservice",
+  "BasePath": "_content/ShippingMicroservice",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,14 @@
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/ApplicationCoreShipping/bin/Debug/net9.0/ApplicationCoreShipping.deps.json
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/ApplicationCoreShipping/bin/Debug/net9.0/ApplicationCoreShipping.runtimeconfig.json
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/ApplicationCoreShipping/bin/Debug/net9.0/ApplicationCoreShipping.dll
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/ApplicationCoreShipping/bin/Debug/net9.0/ApplicationCoreShipping.pdb
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/ApplicationCoreShipping/obj/Debug/net9.0/ApplicationCoreShipping.csproj.AssemblyReference.cache
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/ApplicationCoreShipping/obj/Debug/net9.0/ApplicationCoreShipping.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/ApplicationCoreShipping/obj/Debug/net9.0/ApplicationCoreShipping.AssemblyInfoInputs.cache
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/ApplicationCoreShipping/obj/Debug/net9.0/ApplicationCoreShipping.AssemblyInfo.cs
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/ApplicationCoreShipping/obj/Debug/net9.0/ApplicationCoreShipping.csproj.CoreCompileInputs.cache
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/ApplicationCoreShipping/obj/Debug/net9.0/ApplicationCoreShipping.dll
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/ApplicationCoreShipping/obj/Debug/net9.0/refint/ApplicationCoreShipping.dll
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/ApplicationCoreShipping/obj/Debug/net9.0/ApplicationCoreShipping.pdb
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/ApplicationCoreShipping/obj/Debug/net9.0/ApplicationCoreShipping.genruntimeconfig.cache
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/ApplicationCoreShipping/obj/Debug/net9.0/ref/ApplicationCoreShipping.dll

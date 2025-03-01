@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bA5f0u3QiKU=",
+  "dgSpecHash": "uarDOLQAt6k=",
   "success": true,
-  "projectFilePath": "/Users/dimplesingh/github/CSharp_Projects/ECommerceApp/Infrastructure/Infrastructure.csproj",
+  "projectFilePath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/dimplesingh/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/dimplesingh/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",

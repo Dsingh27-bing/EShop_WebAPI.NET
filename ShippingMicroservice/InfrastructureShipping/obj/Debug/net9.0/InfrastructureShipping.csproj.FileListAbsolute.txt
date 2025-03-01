@@ -1,0 +1,17 @@
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/InfrastructureShipping/bin/Debug/net9.0/InfrastructureShipping.deps.json
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/InfrastructureShipping/bin/Debug/net9.0/InfrastructureShipping.runtimeconfig.json
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/InfrastructureShipping/bin/Debug/net9.0/InfrastructureShipping.dll
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/InfrastructureShipping/bin/Debug/net9.0/InfrastructureShipping.pdb
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/InfrastructureShipping/bin/Debug/net9.0/ApplicationCoreShipping.dll
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/InfrastructureShipping/bin/Debug/net9.0/ApplicationCoreShipping.pdb
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/InfrastructureShipping/obj/Debug/net9.0/InfrastructureShipping.csproj.AssemblyReference.cache
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/InfrastructureShipping/obj/Debug/net9.0/InfrastructureShipping.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/InfrastructureShipping/obj/Debug/net9.0/InfrastructureShipping.AssemblyInfoInputs.cache
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/InfrastructureShipping/obj/Debug/net9.0/InfrastructureShipping.AssemblyInfo.cs
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/InfrastructureShipping/obj/Debug/net9.0/InfrastructureShipping.csproj.CoreCompileInputs.cache
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/InfrastructureShipping/obj/Debug/net9.0/Infrastr.CAA7C6F1.Up2Date
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/InfrastructureShipping/obj/Debug/net9.0/InfrastructureShipping.dll
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/InfrastructureShipping/obj/Debug/net9.0/refint/InfrastructureShipping.dll
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/InfrastructureShipping/obj/Debug/net9.0/InfrastructureShipping.pdb
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/InfrastructureShipping/obj/Debug/net9.0/InfrastructureShipping.genruntimeconfig.cache
+/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/InfrastructureShipping/obj/Debug/net9.0/ref/InfrastructureShipping.dll

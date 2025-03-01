@@ -8245,11 +8245,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dimplesingh/github/CSharp_Projects/ECommerceApp/ECommerceApp/ECommerceApp.csproj",
+      "projectUniqueName": "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp/ECommerceApp/ECommerceApp.csproj",
       "projectName": "ECommerceApp",
-      "projectPath": "/Users/dimplesingh/github/CSharp_Projects/ECommerceApp/ECommerceApp/ECommerceApp.csproj",
+      "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp/ECommerceApp/ECommerceApp.csproj",
       "packagesPath": "/Users/dimplesingh/.nuget/packages/",
-      "outputPath": "/Users/dimplesingh/github/CSharp_Projects/ECommerceApp/ECommerceApp/obj/",
+      "outputPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp/ECommerceApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/dimplesingh/.nuget/NuGet/NuGet.Config"
@@ -8264,8 +8264,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/dimplesingh/github/CSharp_Projects/ECommerceApp/Infrastructure/Infrastructure.csproj": {
-              "projectPath": "/Users/dimplesingh/github/CSharp_Projects/ECommerceApp/Infrastructure/Infrastructure.csproj"
+            "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp/Infrastructure/Infrastructure.csproj": {
+              "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp/Infrastructure/Infrastructure.csproj"
             }
           }
         }

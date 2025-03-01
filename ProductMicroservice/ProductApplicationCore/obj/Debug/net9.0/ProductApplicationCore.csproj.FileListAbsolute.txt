@@ -1,0 +1,14 @@
+/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductApplicationCore/bin/Debug/net9.0/ProductApplicationCore.deps.json
+/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductApplicationCore/bin/Debug/net9.0/ProductApplicationCore.runtimeconfig.json
+/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductApplicationCore/bin/Debug/net9.0/ProductApplicationCore.dll
+/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductApplicationCore/bin/Debug/net9.0/ProductApplicationCore.pdb
+/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductApplicationCore/obj/Debug/net9.0/ProductApplicationCore.csproj.AssemblyReference.cache
+/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductApplicationCore/obj/Debug/net9.0/ProductApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductApplicationCore/obj/Debug/net9.0/ProductApplicationCore.AssemblyInfoInputs.cache
+/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductApplicationCore/obj/Debug/net9.0/ProductApplicationCore.AssemblyInfo.cs
+/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductApplicationCore/obj/Debug/net9.0/ProductApplicationCore.csproj.CoreCompileInputs.cache
+/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductApplicationCore/obj/Debug/net9.0/ProductApplicationCore.dll
+/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductApplicationCore/obj/Debug/net9.0/refint/ProductApplicationCore.dll
+/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductApplicationCore/obj/Debug/net9.0/ProductApplicationCore.pdb
+/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductApplicationCore/obj/Debug/net9.0/ProductApplicationCore.genruntimeconfig.cache
+/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductApplicationCore/obj/Debug/net9.0/ref/ProductApplicationCore.dll

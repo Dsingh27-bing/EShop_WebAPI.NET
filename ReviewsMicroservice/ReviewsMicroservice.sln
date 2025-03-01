@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReviewsMicroservice", "ReviewsMicroservice\ReviewsMicroservice.csproj", "{AB289431-E71D-44E7-BD0D-334A89CA49E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReviewsApplicationCore", "ReviewsApplicationCore\ReviewsApplicationCore.csproj", "{7CCB494A-E992-47C2-A76F-C21798CCBE05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReviewsInfrastructure", "ReviewsInfrastructure\ReviewsInfrastructure.csproj", "{D4B4945D-2B4E-489F-B77A-60365A6F1637}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB289431-E71D-44E7-BD0D-334A89CA49E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB289431-E71D-44E7-BD0D-334A89CA49E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB289431-E71D-44E7-BD0D-334A89CA49E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB289431-E71D-44E7-BD0D-334A89CA49E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CCB494A-E992-47C2-A76F-C21798CCBE05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CCB494A-E992-47C2-A76F-C21798CCBE05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CCB494A-E992-47C2-A76F-C21798CCBE05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CCB494A-E992-47C2-A76F-C21798CCBE05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B4945D-2B4E-489F-B77A-60365A6F1637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B4945D-2B4E-489F-B77A-60365A6F1637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B4945D-2B4E-489F-B77A-60365A6F1637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B4945D-2B4E-489F-B77A-60365A6F1637}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
