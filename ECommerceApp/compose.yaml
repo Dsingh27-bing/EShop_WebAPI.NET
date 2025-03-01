@@ -1,0 +1,14 @@
+﻿services:
+  
+  ecommerceapp:
+    image: ecommerceapp
+    build:
+      context: .
+      dockerfile: ECommerceApp/Dockerfile
+    environment:
+      - ECommerceDB=Server=localhost,1433;Database=ECommerceApp;User=sa;Password=Pawan1128;
+    ports:
+      - "3123:8080"
+
+
+  

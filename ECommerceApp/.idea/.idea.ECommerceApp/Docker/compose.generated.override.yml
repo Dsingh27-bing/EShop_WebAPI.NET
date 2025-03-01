@@ -1,0 +1,40 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  ecommerceapp:
+    build:
+      context: "/Users/dimplesingh/github/CSharp_Projects/ECommerceApp"
+      dockerfile: "ECommerceApp/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net9.0/ECommerceApp.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "ecommerceapp:dev"
+    ports: []
+    volumes:
+    - "/Users/dimplesingh/github/CSharp_Projects/ECommerceApp/ECommerceApp:/app:rw"
+    - "/Users/dimplesingh/github/CSharp_Projects/ECommerceApp:/src:rw"
+    - "/Users/dimplesingh/.nuget/packages:/home/app/.nuget/packages"
+    working_dir: "/app"
+  productmicroservice:
+    build:
+      context: "/Users/dimplesingh/github/CSharp_Projects/ECommerceApp"
+      dockerfile: "ProductMicroservice/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net9.0/ProductMicroservice.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "productmicroservice:dev"
+    ports: []
+    volumes:
+    - "/Users/dimplesingh/github/CSharp_Projects/ECommerceApp/ProductMicroservice:/app:rw"
+    - "/Users/dimplesingh/github/CSharp_Projects/ECommerceApp:/src:rw"
+    - "/Users/dimplesingh/.nuget/packages:/home/app/.nuget/packages"
+    working_dir: "/app"
