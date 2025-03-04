@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/ShippingMicroservice/ShippingMicroservice.csproj": {}
+    "/Users/dimplesingh/github/EShop_WebAPI.NET/ShippingMicroservice/ShippingMicroservice/ShippingMicroservice.csproj": {}
   },
   "projects": {
-    "/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/ApplicationCoreShipping/ApplicationCoreShipping.csproj": {
+    "/Users/dimplesingh/github/EShop_WebAPI.NET/ShippingMicroservice/ApplicationCoreShipping/ApplicationCoreShipping.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/ApplicationCoreShipping/ApplicationCoreShipping.csproj",
+        "projectUniqueName": "/Users/dimplesingh/github/EShop_WebAPI.NET/ShippingMicroservice/ApplicationCoreShipping/ApplicationCoreShipping.csproj",
         "projectName": "ApplicationCoreShipping",
-        "projectPath": "/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/ApplicationCoreShipping/ApplicationCoreShipping.csproj",
+        "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ShippingMicroservice/ApplicationCoreShipping/ApplicationCoreShipping.csproj",
         "packagesPath": "/Users/dimplesingh/.nuget/packages/",
-        "outputPath": "/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/ApplicationCoreShipping/obj/",
+        "outputPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ShippingMicroservice/ApplicationCoreShipping/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dimplesingh/.nuget/NuGet/NuGet.Config"
@@ -105,14 +105,14 @@
         }
       }
     },
-    "/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/InfrastructureShipping/InfrastructureShipping.csproj": {
+    "/Users/dimplesingh/github/EShop_WebAPI.NET/ShippingMicroservice/InfrastructureShipping/InfrastructureShipping.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/InfrastructureShipping/InfrastructureShipping.csproj",
+        "projectUniqueName": "/Users/dimplesingh/github/EShop_WebAPI.NET/ShippingMicroservice/InfrastructureShipping/InfrastructureShipping.csproj",
         "projectName": "InfrastructureShipping",
-        "projectPath": "/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/InfrastructureShipping/InfrastructureShipping.csproj",
+        "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ShippingMicroservice/InfrastructureShipping/InfrastructureShipping.csproj",
         "packagesPath": "/Users/dimplesingh/.nuget/packages/",
-        "outputPath": "/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/InfrastructureShipping/obj/",
+        "outputPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ShippingMicroservice/InfrastructureShipping/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dimplesingh/.nuget/NuGet/NuGet.Config"
@@ -127,8 +127,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/ApplicationCoreShipping/ApplicationCoreShipping.csproj": {
-                "projectPath": "/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/ApplicationCoreShipping/ApplicationCoreShipping.csproj"
+              "/Users/dimplesingh/github/EShop_WebAPI.NET/ShippingMicroservice/ApplicationCoreShipping/ApplicationCoreShipping.csproj": {
+                "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ShippingMicroservice/ApplicationCoreShipping/ApplicationCoreShipping.csproj"
               }
             }
           }
@@ -210,14 +210,14 @@
         }
       }
     },
-    "/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/ShippingMicroservice/ShippingMicroservice.csproj": {
+    "/Users/dimplesingh/github/EShop_WebAPI.NET/ShippingMicroservice/ShippingMicroservice/ShippingMicroservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/ShippingMicroservice/ShippingMicroservice.csproj",
+        "projectUniqueName": "/Users/dimplesingh/github/EShop_WebAPI.NET/ShippingMicroservice/ShippingMicroservice/ShippingMicroservice.csproj",
         "projectName": "ShippingMicroservice",
-        "projectPath": "/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/ShippingMicroservice/ShippingMicroservice.csproj",
+        "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ShippingMicroservice/ShippingMicroservice/ShippingMicroservice.csproj",
         "packagesPath": "/Users/dimplesingh/.nuget/packages/",
-        "outputPath": "/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/ShippingMicroservice/obj/",
+        "outputPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ShippingMicroservice/ShippingMicroservice/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dimplesingh/.nuget/NuGet/NuGet.Config"
@@ -232,8 +232,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/InfrastructureShipping/InfrastructureShipping.csproj": {
-                "projectPath": "/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/InfrastructureShipping/InfrastructureShipping.csproj"
+              "/Users/dimplesingh/github/EShop_WebAPI.NET/ShippingMicroservice/InfrastructureShipping/InfrastructureShipping.csproj": {
+                "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ShippingMicroservice/InfrastructureShipping/InfrastructureShipping.csproj"
               }
             }
           }

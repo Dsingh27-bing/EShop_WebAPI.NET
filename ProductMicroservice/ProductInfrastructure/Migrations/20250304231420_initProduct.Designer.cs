@@ -11,7 +11,7 @@ using ProductInfrastructure.Data;
 namespace ProductInfrastructure.Migrations
 {
     [DbContext(typeof(ProductDbContext))]
-    [Migration("20250304215222_initProduct")]
+    [Migration("20250304231420_initProduct")]
     partial class initProduct
     {
         /// <inheritdoc />
@@ -177,7 +177,7 @@ namespace ProductInfrastructure.Migrations
                     b.HasOne("ProductApplicationCore.Entities.VariationValue", "VariationValue")
                         .WithMany()
                         .HasForeignKey("VariationValueId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Product");

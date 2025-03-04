@@ -12,7 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<ProductDbContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("ProductMicroservice"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ProductDB"));
 });
 // Add services to the container.
 

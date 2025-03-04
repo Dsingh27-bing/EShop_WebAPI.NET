@@ -174,7 +174,7 @@ namespace ProductInfrastructure.Migrations
                     b.HasOne("ProductApplicationCore.Entities.VariationValue", "VariationValue")
                         .WithMany()
                         .HasForeignKey("VariationValueId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Product");

@@ -37,7 +37,8 @@ public class ProductDbContext:DbContext
         modelBuilder.Entity<ProductVariationValues>()
             .HasOne(pv => pv.VariationValue)
             .WithMany()
-            .HasForeignKey(pv => pv.VariationValueId);
+            .HasForeignKey(pv => pv.VariationValueId)
+            .OnDelete(DeleteBehavior.Restrict);
 
         modelBuilder.Entity<ProductVariationValues>()
             .HasOne(pv => pv.Product)

@@ -4,3 +4,15 @@
 /Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionInfrastructure/obj/Debug/net9.0/PromotionInfrastructure.AssemblyInfo.cs
 /Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionInfrastructure/obj/Debug/net9.0/PromotionInfrastructure.csproj.CoreCompileInputs.cache
 /Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionInfrastructure/obj/Debug/net9.0/PromotionInfrastructure.sourcelink.json
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionInfrastructure/bin/Debug/net9.0/PromotionInfrastructure.deps.json
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionInfrastructure/bin/Debug/net9.0/PromotionInfrastructure.runtimeconfig.json
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionInfrastructure/bin/Debug/net9.0/PromotionInfrastructure.dll
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionInfrastructure/bin/Debug/net9.0/PromotionInfrastructure.pdb
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionInfrastructure/bin/Debug/net9.0/PromotionApplicationCore.dll
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionInfrastructure/bin/Debug/net9.0/PromotionApplicationCore.pdb
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionInfrastructure/obj/Debug/net9.0/Promotio.BC10AA1C.Up2Date
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionInfrastructure/obj/Debug/net9.0/PromotionInfrastructure.dll
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionInfrastructure/obj/Debug/net9.0/refint/PromotionInfrastructure.dll
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionInfrastructure/obj/Debug/net9.0/PromotionInfrastructure.pdb
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionInfrastructure/obj/Debug/net9.0/PromotionInfrastructure.genruntimeconfig.cache
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionInfrastructure/obj/Debug/net9.0/ref/PromotionInfrastructure.dll

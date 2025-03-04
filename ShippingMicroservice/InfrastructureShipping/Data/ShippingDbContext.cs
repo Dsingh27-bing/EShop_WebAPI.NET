@@ -14,26 +14,10 @@ public class ShippingDbContext:DbContext
     public DbSet<ShippingDetails> ShippingDetails{ get; set; }
     public DbSet<Region> Regions { get; set; }
     
-    // protected override void OnModelCreating(ModelBuilder modelBuilder)
-    // {
-    //     modelBuilder.Entity<Shipper>()
-    //         .HasMany(s => s.ShipperRegions)
-    //         .WithOne(sr => sr.Shipper)
-    //         .HasForeignKey(sr => sr.ShipperId);
-    //     
-    //     modelBuilder.Entity<Region>()
-    //         .HasMany(r => r.ShipperRegions)
-    //         .WithOne(sr => sr.Region)
-    //         .HasForeignKey(sr => sr.RegionId);
-    //     
-    //     modelBuilder.Entity<ShippingDetails>()
-    //         .HasOne(sd => sd.Shipper)
-    //         .WithMany(s => s.ShippingDetails)
-    //         .HasForeignKey(sd => sd.ShipperId);
-    //     
-    //     modelBuilder.Entity<ShippingDetails>()
-    //         .HasOne(sd => sd.Region)
-    //         .WithMany(r => r.ShippingDetails)
-    //         .HasForeignKey(sd => sd.RegionId);
-    // }
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<ShipperRegion>().HasKey(sr => new { sr.ShipperId, sr.RegionId });
+
+            base.OnModelCreating(modelBuilder);
+        }
 }

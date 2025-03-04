@@ -17,7 +17,7 @@ public class PromotionRepositoryAsync:BaseRepositoryAsync<PromotionSale>,IPromot
     public async Task<IEnumerable<PromotionSale>> GetPromotionsByProductName(string productName)
     {
         return await _dbContext.Promotions.AsNoTracking()
-            .Where(x => x.ProductName == productName)
+            .Where(x => x.PromotionDetails.Any(d => d.ProductCategoryName == productName))
             .ToListAsync();
     }
     

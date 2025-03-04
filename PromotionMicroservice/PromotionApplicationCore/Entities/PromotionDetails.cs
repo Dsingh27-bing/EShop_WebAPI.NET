@@ -7,5 +7,5 @@ public class PromotionDetails
     public int ProductCategoryId { get; set; }
     public string ProductCategoryName { get; set; }
     
-    
+    public PromotionSale PromotionSale { get; set; }
 }

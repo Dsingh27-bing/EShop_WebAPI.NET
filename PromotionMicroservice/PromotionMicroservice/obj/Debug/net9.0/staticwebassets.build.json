@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ttWMBQSo94EqXjaDSDCYuZyW8QMoYLhwKTapnKRYr4M=",
+  "Source": "PromotionMicroservice",
+  "BasePath": "_content/PromotionMicroservice",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

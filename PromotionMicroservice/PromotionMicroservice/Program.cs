@@ -11,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddDbContext<PromotionDbContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("PromotionMicroservice"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("PromotionDB"));
 });
 
 builder.Services.AddScoped<IPromotionServiceAsync, PromotionServiceAsync>();
