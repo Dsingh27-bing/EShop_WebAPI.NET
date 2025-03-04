@@ -7,7 +7,7 @@ namespace ApplicationCore.Contracts.Services;
 public interface ICustomerServiceAsync
 {
     Task<IEnumerable<Customer>> GetCustomerAddressByUserId(int userId);
-    Task<int> SaveCustomerAddress(CustomerRequestModel requestModel); //insert
+    Task<UserAddressResponseModel> SaveCustomerAddress(AddressRequestModel requestModel); //insert of address
     Task<int> InsertAsync(CustomerRequestModel reqModel);
     
 

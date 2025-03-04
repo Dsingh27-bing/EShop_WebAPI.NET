@@ -12,11 +12,15 @@ public class CustomerServiceAsync:ICustomerServiceAsync
 {
     private readonly IMapper _mapper;
     private readonly ICustomerRepositoryAsync _customerRepositoryAsync;
+    private readonly IAddressRepositoryAsync _addressRepositoryAsync;
+    private readonly IUserAddressRepositoryAsync _userAddressRepositoryAsync;
 
-    public CustomerServiceAsync(ICustomerRepositoryAsync customerRepositoryAsync, IMapper mapper)
+    public CustomerServiceAsync(ICustomerRepositoryAsync customerRepositoryAsync, IMapper mapper, IAddressRepositoryAsync addressRepositoryAsync, IUserAddressRepositoryAsync userAddressRepositoryAsync)
     {
         _mapper = mapper;
         _customerRepositoryAsync = customerRepositoryAsync;
+        _addressRepositoryAsync = addressRepositoryAsync;
+        _userAddressRepositoryAsync = userAddressRepositoryAsync;
         
     }
     
@@ -26,10 +30,18 @@ public class CustomerServiceAsync:ICustomerServiceAsync
         return _mapper.Map<IEnumerable<Customer>>(customer);
     }
 
-    public Task<int> SaveCustomerAddress(CustomerRequestModel requestModel)
+    public async Task<UserAddressResponseModel> SaveCustomerAddress(AddressRequestModel requestModel)
     {
-        var customerIn = _mapper.Map<Customer>(requestModel);
-        return _customerRepositoryAsync.InsertAsync(customerIn);
+        var address = _mapper.Map<Address>(requestModel);
+        var addressId = (await _addressRepositoryAsync.InsertAsync(address));
+        var userAddress = new UserAddress()
+        {
+            AddressId = addressId,
+            CustomerId = requestModel.CustomerId,
+            IsDefaultAddress = requestModel.IsDefaultAddress
+        };
+        
+        return _mapper.Map<UserAddressResponseModel>(await _userAddressRepositoryAsync.InsertAsync(userAddress));
     }
 
     public Task<int> InsertAsync(CustomerRequestModel reqModel)

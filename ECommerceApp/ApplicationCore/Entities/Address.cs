@@ -6,17 +6,17 @@ public class Address
 {
     public int Id { get; set; }
     [MaxLength(150)]
-    public String? Street1 { get; set; }
+    public string? Street1 { get; set; }
     [MaxLength(150)]
-    public String? Street2 { get; set; }
+    public string? Street2 { get; set; }
     [MaxLength(50)]
-    public String? City { get; set; }
+    public string? City { get; set; }
     [MaxLength(50)]
-    public String? State { get; set; }
+    public string? State { get; set; }
     [MaxLength(50)]
-    public String? Country { get; set; }
+    public string? Country { get; set; }
     [MaxLength(10)]
-    public String? ZipCode { get; set; }
+    public string? ZipCode { get; set; }
     
     public IEnumerable<UserAddress> UserAddresses { get; set; }
 }

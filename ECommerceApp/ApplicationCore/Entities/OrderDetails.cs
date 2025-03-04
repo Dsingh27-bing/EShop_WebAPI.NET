@@ -10,7 +10,7 @@ public class OrderDetails
     public int OrderId { get; set; }
     [Required]
     public int ProductId { get; set; }
-    public String? ProductName { get; set; }
+    public string? ProductName { get; set; }
     [Required]
     public int Qty { get; set; }
     [Required]

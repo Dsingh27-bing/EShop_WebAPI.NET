@@ -32,14 +32,6 @@ namespace ECommerceApp.Controllers
             return Ok(result);
         }
 
-        // c. Get Order By Customer Id
-        [HttpGet("customer/{customerId:int}")]
-        public async Task<IActionResult> GetOrdersByCustomerId(int customerId)
-        {
-            var orders = await _orderService.GetOrderByCustomerId(customerId);
-            return Ok(orders);
-        }
-
         // d. Delete the Order
         [HttpDelete("{id:int}")]
         public async Task<IActionResult> DeleteOrder(int id)
@@ -55,6 +47,49 @@ namespace ECommerceApp.Controllers
             request.Id = id; // Ensure request has the correct ID if needed
             var result = await _orderService.UpdateAsync(request);
             return Ok(result);
+        }
+        
+        [HttpPost]
+        public async Task<IActionResult> SaveOrder([FromBody] OrderRequestModel request)
+        {
+            var result = await _orderService.InsertAsync(request);
+            return Ok(result);
+        }
+        
+        [HttpGet]
+        public async Task<IActionResult> CheckOrderHistory(int orderId)
+        {
+            var orderDetails = await _orderService.CheckOrderHistory(orderId);
+            return Ok(orderDetails);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> CheckOrderStatus(int orderId)
+        {
+            var orderDetails = await _orderService.CheckOrderStatus(orderId);
+            return Ok(orderDetails);
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> CancelOrder(int orderId)
+        {
+            try
+            {
+                var response = await _orderService.CancelOrder(orderId);
+                return Ok(response);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.ToString());
+            }
+            
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> OrderCompleted(int orderId)
+        {
+            var response = await _orderService.OrderCompleted(orderId);
+            return Ok(response);
         }
         
       

@@ -12,23 +12,19 @@ public class OrderServiceAsync:IOrderServiceAsync
 {
     private readonly IOrderRepositoryAsync _orderRepositoryAsync;
     private readonly IMapper _mapper;
+    private readonly IOrderDetailsRepositoryAsync _orderDetailsRepositoryAsync;
 
-    public OrderServiceAsync(IOrderRepositoryAsync orderRepositoryAsync, IMapper mapper)
+    public OrderServiceAsync(IOrderRepositoryAsync orderRepositoryAsync, IMapper mapper, IOrderDetailsRepositoryAsync orderDetailsRepositoryAsync)
     {
         _orderRepositoryAsync = orderRepositoryAsync;
         _mapper = mapper;
+        _orderDetailsRepositoryAsync = orderDetailsRepositoryAsync;
     }
   
     public async Task<IEnumerable<OrderResponseModel>> GetAllAsync()
     {
         var responseModels = _mapper.Map<IEnumerable<OrderResponseModel>>(await _orderRepositoryAsync.GetAllAsync());
         return (responseModels);
-    }
-
-    public Task<IEnumerable<OrderResponseModel>> GetOrderByCustomerId(int customerId)
-    {
-        throw new NotImplementedException();
-        
     }
 
     public async Task<OrderResponseModel> GetByIdAsync(int id)
@@ -61,27 +57,39 @@ public class OrderServiceAsync:IOrderServiceAsync
         return _orderRepositoryAsync.InsertAsync(orderIn);
     }
 
-    public Task<OrderDetailsResponseModel> CheckOrderHistory(int customerId, int orderId)
+    public async Task<IEnumerable<OrderDetailsResponseModel>> CheckOrderHistory(int orderId)
     {
-        throw new NotImplementedException();
+        var orderDetails = await _orderDetailsRepositoryAsync.GetOrderDetailsByOrderIdAsync(orderId);
+        return _mapper.Map<IEnumerable<OrderDetailsResponseModel>>(orderDetails);
     }
 
-    public async Task<OrderResponseModel> CheckOrderStatus(int id)
+    public async Task<string> CheckOrderStatus(int id)
     {
-        var order = await _orderRepositoryAsync.GetByIdAsync(id);
-        var responseModel = _mapper.Map<OrderResponseModel>(order);
-        return responseModel;
+        return (await _orderRepositoryAsync.GetByIdAsync(id))?.OrderStatus.ToString()?? "Order not found";
     }
 
-    public Task<int> CancelOrder(int orderId)
+    public async Task<OrderResponseModel> CancelOrder(int orderId)
     {
-        return _orderRepositoryAsync.DeleteAsync(orderId);
+        var order = await _orderRepositoryAsync.GetByIdAsync(orderId);
+        if (order == null)
+        {
+            throw new Exception("Cannot Cancel Order, Not Found");
+        }
+        order.OrderStatus = OrderStatus.Canceled;
+        var updatedOrder = await _orderRepositoryAsync.UpdateAsync(order);
+        return _mapper.Map<OrderResponseModel>(updatedOrder);
     }
 
-    public Task<int> OrderCompleted(OrderRequestModel requestModel)
+    public async Task<OrderResponseModel> OrderCompleted(int orderId)
     {
-        var orderIn = _mapper.Map<Order>(requestModel);
-        return _orderRepositoryAsync.UpdateAsync(orderIn);
+        var order = await _orderRepositoryAsync.GetOrderWithDetailbyIdAsync(orderId);
+        if (order == null)
+        {
+            throw new Exception("Cannot Complete Order, Not Found");
+        }
+        order.OrderStatus = OrderStatus.Completed;
+        var updatedOrder = await _orderRepositoryAsync.UpdateAsync(order);
+        return _mapper.Map<OrderResponseModel>(updatedOrder);
     }
 
     public Task<int> UpdateOrder(OrderRequestModel reqModel)

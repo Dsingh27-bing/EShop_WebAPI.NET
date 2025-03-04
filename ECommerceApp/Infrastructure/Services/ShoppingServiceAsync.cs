@@ -19,7 +19,7 @@ public class ShoppingServiceAsync:IShoppingServiceAsync
     }
     public async Task<IEnumerable<ShoppingCartResponseModel>> GetShoppingCartByCustomerId(int customerId)
     {
-        var shoppingCarts = await _shoppingCartRepositoryAsync.GetByIdAsync(customerId);
+        var shoppingCarts = await _shoppingCartRepositoryAsync.GetShoppingCartByCustomerId(customerId);
         var responseModels = _mapper.Map<IEnumerable<ShoppingCartResponseModel>>(shoppingCarts);
         return responseModels;
     }

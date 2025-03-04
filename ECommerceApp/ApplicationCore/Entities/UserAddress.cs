@@ -10,7 +10,7 @@ public class UserAddress
     public int? CustomerId { get; set; }
     public int? AddressId { get; set; }
     [MaxLength (250)]
-    public String? IsDefaultAddress { get; set; }
+    public string? IsDefaultAddress { get; set; }
 
     public Customer? Customer { get; set; }
     public Address? Address { get; set; }

@@ -21,5 +21,11 @@ public class OrderRepositoryAsync:BaseRepositoryAsync<Order>,IOrderRepositoryAsy
             .ToListAsync();
 
     }
-    
+
+    public async Task<Order> GetOrderWithDetailbyIdAsync(int id)
+    {
+        return  await _dbContext.Orders.AsNoTracking()
+            .Include(o => o.OrderDetails)
+            .FirstOrDefaultAsync(o => o.Id == id);
+    }
 }

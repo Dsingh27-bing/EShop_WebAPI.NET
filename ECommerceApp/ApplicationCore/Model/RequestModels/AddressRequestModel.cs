@@ -9,5 +9,8 @@ public class AddressRequestModel
     public String? State { get; set; }
     public String? Country { get; set; }
     public String? ZipCode { get; set; }
+    
+    public int CustomerId { get; set; }
+    public String IsDefaultAddress { get; set; }
 
 }
