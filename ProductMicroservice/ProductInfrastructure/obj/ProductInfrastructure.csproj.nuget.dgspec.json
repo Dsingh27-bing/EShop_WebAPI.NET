@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductInfrastructure/ProductInfrastructure.csproj": {}
+    "/Users/dimplesingh/github/EShop_WebAPI.NET/ProductMicroservice/ProductInfrastructure/ProductInfrastructure.csproj": {}
   },
   "projects": {
-    "/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductApplicationCore/ProductApplicationCore.csproj": {
+    "/Users/dimplesingh/github/EShop_WebAPI.NET/ProductMicroservice/ProductApplicationCore/ProductApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductApplicationCore/ProductApplicationCore.csproj",
+        "projectUniqueName": "/Users/dimplesingh/github/EShop_WebAPI.NET/ProductMicroservice/ProductApplicationCore/ProductApplicationCore.csproj",
         "projectName": "ProductApplicationCore",
-        "projectPath": "/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductApplicationCore/ProductApplicationCore.csproj",
+        "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ProductMicroservice/ProductApplicationCore/ProductApplicationCore.csproj",
         "packagesPath": "/Users/dimplesingh/.nuget/packages/",
-        "outputPath": "/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductApplicationCore/obj/",
+        "outputPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ProductMicroservice/ProductApplicationCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dimplesingh/.nuget/NuGet/NuGet.Config"
@@ -105,14 +105,14 @@
         }
       }
     },
-    "/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductInfrastructure/ProductInfrastructure.csproj": {
+    "/Users/dimplesingh/github/EShop_WebAPI.NET/ProductMicroservice/ProductInfrastructure/ProductInfrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductInfrastructure/ProductInfrastructure.csproj",
+        "projectUniqueName": "/Users/dimplesingh/github/EShop_WebAPI.NET/ProductMicroservice/ProductInfrastructure/ProductInfrastructure.csproj",
         "projectName": "ProductInfrastructure",
-        "projectPath": "/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductInfrastructure/ProductInfrastructure.csproj",
+        "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ProductMicroservice/ProductInfrastructure/ProductInfrastructure.csproj",
         "packagesPath": "/Users/dimplesingh/.nuget/packages/",
-        "outputPath": "/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductInfrastructure/obj/",
+        "outputPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ProductMicroservice/ProductInfrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dimplesingh/.nuget/NuGet/NuGet.Config"
@@ -127,8 +127,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductApplicationCore/ProductApplicationCore.csproj": {
-                "projectPath": "/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductApplicationCore/ProductApplicationCore.csproj"
+              "/Users/dimplesingh/github/EShop_WebAPI.NET/ProductMicroservice/ProductApplicationCore/ProductApplicationCore.csproj": {
+                "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ProductMicroservice/ProductApplicationCore/ProductApplicationCore.csproj"
               }
             }
           }

@@ -13,9 +13,9 @@ var connectionString = Environment.GetEnvironmentVariable("ECommerceDB");
 Console.WriteLine($"Connection String: {connectionString}");
 builder.Services.AddDbContext<ECommerceDbContext>(options =>
 {
-    // options.UseSqlServer(builder.Configuration.GetConnectionString("ECommerceApp"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ECommerceApp"));
 
-    options.UseSqlServer(connectionString);
+    // options.UseSqlServer(connectionString);
 });
 // Add services to the container.
 
@@ -34,6 +34,7 @@ builder.Services.AddScoped<IShoppingCartItemRepositoryAsync, ShoppingCartItemRep
 builder.Services.AddScoped<IOrderDetailsRepositoryAsync, OrderDetailsRepositoryAsync>();
 builder.Services.AddScoped<IAddressRepositoryAsync, AddressRepositoryAsync>();
 builder.Services.AddScoped<IPaymentTypeRepositoryAsync, PaymentTypeRepositoryAsync>();
+builder.Services.AddScoped<IUserAddressRepositoryAsync, UserAddressRepositoryAsync>();
 
 builder.Services.AddAutoMapper(typeof(ApplicationMapper));
 

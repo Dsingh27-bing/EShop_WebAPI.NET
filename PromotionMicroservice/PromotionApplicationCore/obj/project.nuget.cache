@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ENyDh8Pfps8=",
+  "dgSpecHash": "vWIbsNcf/sM=",
   "success": true,
-  "projectFilePath": "/Users/dimplesingh/projects/Documents/Antra/PromotionMicroservice/PromotionApplicationCore/PromotionApplicationCore.csproj",
+  "projectFilePath": "/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionApplicationCore/PromotionApplicationCore.csproj",
   "expectedPackageFiles": [
     "/Users/dimplesingh/.nuget/packages/automapper/14.0.0/automapper.14.0.0.nupkg.sha512",
     "/Users/dimplesingh/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",

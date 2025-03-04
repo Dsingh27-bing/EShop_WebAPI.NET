@@ -4939,11 +4939,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductApplicationCore/ProductApplicationCore.csproj",
+      "projectUniqueName": "/Users/dimplesingh/github/EShop_WebAPI.NET/ProductMicroservice/ProductApplicationCore/ProductApplicationCore.csproj",
       "projectName": "ProductApplicationCore",
-      "projectPath": "/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductApplicationCore/ProductApplicationCore.csproj",
+      "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ProductMicroservice/ProductApplicationCore/ProductApplicationCore.csproj",
       "packagesPath": "/Users/dimplesingh/.nuget/packages/",
-      "outputPath": "/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductApplicationCore/obj/",
+      "outputPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ProductMicroservice/ProductApplicationCore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/dimplesingh/.nuget/NuGet/NuGet.Config"

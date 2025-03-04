@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AHDPh6IDo70=",
+  "dgSpecHash": "ucLJLBo7wW0=",
   "success": true,
-  "projectFilePath": "/Users/dimplesingh/projects/Documents/Antra/ReviewsMicroservice/ReviewsApplicationCore/ReviewsApplicationCore.csproj",
+  "projectFilePath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsApplicationCore/ReviewsApplicationCore.csproj",
   "expectedPackageFiles": [
     "/Users/dimplesingh/.nuget/packages/automapper/14.0.0/automapper.14.0.0.nupkg.sha512",
     "/Users/dimplesingh/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",

@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Migrations
 {
     [DbContext(typeof(ECommerceDbContext))]
-    [Migration("20250222002240_init")]
+    [Migration("20250304214715_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -111,17 +111,14 @@ namespace Infrastructure.Migrations
                     b.Property<int>("CustomerId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("CustomerId1")
-                        .HasColumnType("int");
-
                     b.Property<string>("CustomerName")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("OrderDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("OrderStatus")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("OrderStatus")
+                        .HasColumnType("int");
 
                     b.Property<int?>("PaymentMethodId")
                         .HasColumnType("int");
@@ -139,12 +136,6 @@ namespace Infrastructure.Migrations
 
                     b.HasIndex("CustomerId");
 
-                    b.HasIndex("CustomerId1")
-                        .IsUnique()
-                        .HasFilter("[CustomerId1] IS NOT NULL");
-
-                    b.HasIndex("PaymentMethodId");
-
                     b.ToTable("Orders");
                 });
 
@@ -160,9 +151,6 @@ namespace Infrastructure.Migrations
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("OrderId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Order_Id")
                         .HasColumnType("int");
 
                     b.Property<decimal>("Price")
@@ -195,11 +183,17 @@ namespace Infrastructure.Migrations
                     b.Property<long?>("AccountNumber")
                         .HasColumnType("bigint");
 
+                    b.Property<int?>("CustomerId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime?>("Expiry")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("IsDefault")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<bool?>("IsDefault")
+                        .HasColumnType("bit");
+
+                    b.Property<int?>("OrderId")
+                        .HasColumnType("int");
 
                     b.Property<int>("PaymentTypeId")
                         .HasColumnType("int");
@@ -208,6 +202,10 @@ namespace Infrastructure.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CustomerId");
+
+                    b.HasIndex("OrderId");
 
                     b.HasIndex("PaymentTypeId");
 
@@ -296,9 +294,6 @@ namespace Infrastructure.Migrations
                     b.Property<int?>("CustomerId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("CustomerId1")
-                        .HasColumnType("int");
-
                     b.Property<string>("IsDefaultAddress")
                         .HasMaxLength(250)
                         .HasColumnType("nvarchar(250)");
@@ -308,10 +303,6 @@ namespace Infrastructure.Migrations
                     b.HasIndex("AddressId");
 
                     b.HasIndex("CustomerId");
-
-                    b.HasIndex("CustomerId1")
-                        .IsUnique()
-                        .HasFilter("[CustomerId1] IS NOT NULL");
 
                     b.ToTable("UserAddresses");
                 });
@@ -324,17 +315,7 @@ namespace Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("ApplicationCore.Entities.Customer", null)
-                        .WithOne("Order")
-                        .HasForeignKey("ApplicationCore.Entities.Order", "CustomerId1");
-
-                    b.HasOne("ApplicationCore.Entities.PaymentMethod", "PaymentMethod")
-                        .WithMany()
-                        .HasForeignKey("PaymentMethodId");
-
                     b.Navigation("Customer");
-
-                    b.Navigation("PaymentMethod");
                 });
 
             modelBuilder.Entity("ApplicationCore.Entities.OrderDetails", b =>
@@ -350,6 +331,14 @@ namespace Infrastructure.Migrations
 
             modelBuilder.Entity("ApplicationCore.Entities.PaymentMethod", b =>
                 {
+                    b.HasOne("ApplicationCore.Entities.Customer", null)
+                        .WithMany("PaymentMethods")
+                        .HasForeignKey("CustomerId");
+
+                    b.HasOne("ApplicationCore.Entities.Order", null)
+                        .WithMany("PaymentMethods")
+                        .HasForeignKey("OrderId");
+
                     b.HasOne("ApplicationCore.Entities.PaymentType", "PaymentType")
                         .WithMany("PaymentMethods")
                         .HasForeignKey("PaymentTypeId")
@@ -387,10 +376,6 @@ namespace Infrastructure.Migrations
                         .WithMany("UserAddresses")
                         .HasForeignKey("CustomerId");
 
-                    b.HasOne("ApplicationCore.Entities.Customer", null)
-                        .WithOne("UserAddress")
-                        .HasForeignKey("ApplicationCore.Entities.UserAddress", "CustomerId1");
-
                     b.Navigation("Address");
 
                     b.Navigation("Customer");
@@ -403,13 +388,11 @@ namespace Infrastructure.Migrations
 
             modelBuilder.Entity("ApplicationCore.Entities.Customer", b =>
                 {
-                    b.Navigation("Order");
-
                     b.Navigation("Orders");
 
-                    b.Navigation("ShoppingCarts");
+                    b.Navigation("PaymentMethods");
 
-                    b.Navigation("UserAddress");
+                    b.Navigation("ShoppingCarts");
 
                     b.Navigation("UserAddresses");
                 });
@@ -417,6 +400,8 @@ namespace Infrastructure.Migrations
             modelBuilder.Entity("ApplicationCore.Entities.Order", b =>
                 {
                     b.Navigation("OrderDetails");
+
+                    b.Navigation("PaymentMethods");
                 });
 
             modelBuilder.Entity("ApplicationCore.Entities.PaymentType", b =>

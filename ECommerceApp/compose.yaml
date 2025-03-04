@@ -8,7 +8,5 @@
     environment:
       - ECommerceDB=Server=localhost,1433;Database=ECommerceApp;User=sa;Password=Pawan1128;
     ports:
-      - "3123:8080"
+      - "3123:80"
 
-
-  

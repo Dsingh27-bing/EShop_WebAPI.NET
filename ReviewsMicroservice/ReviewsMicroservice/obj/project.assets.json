@@ -4989,11 +4989,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dimplesingh/projects/Documents/Antra/ReviewsMicroservice/ReviewsMicroservice/ReviewsMicroservice.csproj",
+      "projectUniqueName": "/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsMicroservice/ReviewsMicroservice.csproj",
       "projectName": "ReviewsMicroservice",
-      "projectPath": "/Users/dimplesingh/projects/Documents/Antra/ReviewsMicroservice/ReviewsMicroservice/ReviewsMicroservice.csproj",
+      "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsMicroservice/ReviewsMicroservice.csproj",
       "packagesPath": "/Users/dimplesingh/.nuget/packages/",
-      "outputPath": "/Users/dimplesingh/projects/Documents/Antra/ReviewsMicroservice/ReviewsMicroservice/obj/",
+      "outputPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsMicroservice/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/dimplesingh/.nuget/NuGet/NuGet.Config"
@@ -5008,8 +5008,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/dimplesingh/projects/Documents/Antra/ReviewsMicroservice/ReviewsInfrastructure/ReviewsInfrastructure.csproj": {
-              "projectPath": "/Users/dimplesingh/projects/Documents/Antra/ReviewsMicroservice/ReviewsInfrastructure/ReviewsInfrastructure.csproj"
+            "/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsInfrastructure/ReviewsInfrastructure.csproj": {
+              "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsInfrastructure/ReviewsInfrastructure.csproj"
             }
           }
         }

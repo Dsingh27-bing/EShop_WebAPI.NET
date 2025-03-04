@@ -1,0 +1,15 @@
+/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsApplicationCore/bin/Debug/net9.0/ReviewsApplicationCore.deps.json
+/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsApplicationCore/bin/Debug/net9.0/ReviewsApplicationCore.runtimeconfig.json
+/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsApplicationCore/bin/Debug/net9.0/ReviewsApplicationCore.dll
+/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsApplicationCore/bin/Debug/net9.0/ReviewsApplicationCore.pdb
+/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsApplicationCore/obj/Debug/net9.0/ReviewsApplicationCore.csproj.AssemblyReference.cache
+/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsApplicationCore/obj/Debug/net9.0/ReviewsApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsApplicationCore/obj/Debug/net9.0/ReviewsApplicationCore.AssemblyInfoInputs.cache
+/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsApplicationCore/obj/Debug/net9.0/ReviewsApplicationCore.AssemblyInfo.cs
+/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsApplicationCore/obj/Debug/net9.0/ReviewsApplicationCore.csproj.CoreCompileInputs.cache
+/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsApplicationCore/obj/Debug/net9.0/ReviewsApplicationCore.sourcelink.json
+/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsApplicationCore/obj/Debug/net9.0/ReviewsApplicationCore.dll
+/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsApplicationCore/obj/Debug/net9.0/refint/ReviewsApplicationCore.dll
+/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsApplicationCore/obj/Debug/net9.0/ReviewsApplicationCore.pdb
+/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsApplicationCore/obj/Debug/net9.0/ReviewsApplicationCore.genruntimeconfig.cache
+/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsApplicationCore/obj/Debug/net9.0/ref/ReviewsApplicationCore.dll

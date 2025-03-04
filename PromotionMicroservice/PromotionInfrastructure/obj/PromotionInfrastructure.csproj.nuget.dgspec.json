@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dimplesingh/projects/Documents/Antra/PromotionMicroservice/PromotionInfrastructure/PromotionInfrastructure.csproj": {}
+    "/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionInfrastructure/PromotionInfrastructure.csproj": {}
   },
   "projects": {
-    "/Users/dimplesingh/projects/Documents/Antra/PromotionMicroservice/PromotionApplicationCore/PromotionApplicationCore.csproj": {
+    "/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionApplicationCore/PromotionApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dimplesingh/projects/Documents/Antra/PromotionMicroservice/PromotionApplicationCore/PromotionApplicationCore.csproj",
+        "projectUniqueName": "/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionApplicationCore/PromotionApplicationCore.csproj",
         "projectName": "PromotionApplicationCore",
-        "projectPath": "/Users/dimplesingh/projects/Documents/Antra/PromotionMicroservice/PromotionApplicationCore/PromotionApplicationCore.csproj",
+        "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionApplicationCore/PromotionApplicationCore.csproj",
         "packagesPath": "/Users/dimplesingh/.nuget/packages/",
-        "outputPath": "/Users/dimplesingh/projects/Documents/Antra/PromotionMicroservice/PromotionApplicationCore/obj/",
+        "outputPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionApplicationCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dimplesingh/.nuget/NuGet/NuGet.Config"
@@ -105,14 +105,14 @@
         }
       }
     },
-    "/Users/dimplesingh/projects/Documents/Antra/PromotionMicroservice/PromotionInfrastructure/PromotionInfrastructure.csproj": {
+    "/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionInfrastructure/PromotionInfrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dimplesingh/projects/Documents/Antra/PromotionMicroservice/PromotionInfrastructure/PromotionInfrastructure.csproj",
+        "projectUniqueName": "/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionInfrastructure/PromotionInfrastructure.csproj",
         "projectName": "PromotionInfrastructure",
-        "projectPath": "/Users/dimplesingh/projects/Documents/Antra/PromotionMicroservice/PromotionInfrastructure/PromotionInfrastructure.csproj",
+        "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionInfrastructure/PromotionInfrastructure.csproj",
         "packagesPath": "/Users/dimplesingh/.nuget/packages/",
-        "outputPath": "/Users/dimplesingh/projects/Documents/Antra/PromotionMicroservice/PromotionInfrastructure/obj/",
+        "outputPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionInfrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dimplesingh/.nuget/NuGet/NuGet.Config"
@@ -127,8 +127,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/dimplesingh/projects/Documents/Antra/PromotionMicroservice/PromotionApplicationCore/PromotionApplicationCore.csproj": {
-                "projectPath": "/Users/dimplesingh/projects/Documents/Antra/PromotionMicroservice/PromotionApplicationCore/PromotionApplicationCore.csproj"
+              "/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionApplicationCore/PromotionApplicationCore.csproj": {
+                "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionApplicationCore/PromotionApplicationCore.csproj"
               }
             }
           }

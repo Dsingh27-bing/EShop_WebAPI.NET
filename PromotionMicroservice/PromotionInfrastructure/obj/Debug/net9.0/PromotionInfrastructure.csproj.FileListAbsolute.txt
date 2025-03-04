@@ -1,0 +1,6 @@
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionInfrastructure/obj/Debug/net9.0/PromotionInfrastructure.csproj.AssemblyReference.cache
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionInfrastructure/obj/Debug/net9.0/PromotionInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionInfrastructure/obj/Debug/net9.0/PromotionInfrastructure.AssemblyInfoInputs.cache
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionInfrastructure/obj/Debug/net9.0/PromotionInfrastructure.AssemblyInfo.cs
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionInfrastructure/obj/Debug/net9.0/PromotionInfrastructure.csproj.CoreCompileInputs.cache
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionInfrastructure/obj/Debug/net9.0/PromotionInfrastructure.sourcelink.json

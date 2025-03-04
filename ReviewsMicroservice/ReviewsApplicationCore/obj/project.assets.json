@@ -4939,11 +4939,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dimplesingh/projects/Documents/Antra/ReviewsMicroservice/ReviewsApplicationCore/ReviewsApplicationCore.csproj",
+      "projectUniqueName": "/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsApplicationCore/ReviewsApplicationCore.csproj",
       "projectName": "ReviewsApplicationCore",
-      "projectPath": "/Users/dimplesingh/projects/Documents/Antra/ReviewsMicroservice/ReviewsApplicationCore/ReviewsApplicationCore.csproj",
+      "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsApplicationCore/ReviewsApplicationCore.csproj",
       "packagesPath": "/Users/dimplesingh/.nuget/packages/",
-      "outputPath": "/Users/dimplesingh/projects/Documents/Antra/ReviewsMicroservice/ReviewsApplicationCore/obj/",
+      "outputPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsApplicationCore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/dimplesingh/.nuget/NuGet/NuGet.Config"

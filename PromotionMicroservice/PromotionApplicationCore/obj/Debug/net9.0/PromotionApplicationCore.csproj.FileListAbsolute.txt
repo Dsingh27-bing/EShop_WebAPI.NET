@@ -1,0 +1,15 @@
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionApplicationCore/bin/Debug/net9.0/PromotionApplicationCore.deps.json
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionApplicationCore/bin/Debug/net9.0/PromotionApplicationCore.runtimeconfig.json
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionApplicationCore/bin/Debug/net9.0/PromotionApplicationCore.dll
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionApplicationCore/bin/Debug/net9.0/PromotionApplicationCore.pdb
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionApplicationCore/obj/Debug/net9.0/PromotionApplicationCore.csproj.AssemblyReference.cache
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionApplicationCore/obj/Debug/net9.0/PromotionApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionApplicationCore/obj/Debug/net9.0/PromotionApplicationCore.AssemblyInfoInputs.cache
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionApplicationCore/obj/Debug/net9.0/PromotionApplicationCore.AssemblyInfo.cs
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionApplicationCore/obj/Debug/net9.0/PromotionApplicationCore.csproj.CoreCompileInputs.cache
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionApplicationCore/obj/Debug/net9.0/PromotionApplicationCore.sourcelink.json
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionApplicationCore/obj/Debug/net9.0/PromotionApplicationCore.dll
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionApplicationCore/obj/Debug/net9.0/refint/PromotionApplicationCore.dll
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionApplicationCore/obj/Debug/net9.0/PromotionApplicationCore.pdb
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionApplicationCore/obj/Debug/net9.0/PromotionApplicationCore.genruntimeconfig.cache
+/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionApplicationCore/obj/Debug/net9.0/ref/PromotionApplicationCore.dll

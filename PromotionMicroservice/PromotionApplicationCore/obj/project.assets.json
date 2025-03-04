@@ -4939,11 +4939,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dimplesingh/projects/Documents/Antra/PromotionMicroservice/PromotionApplicationCore/PromotionApplicationCore.csproj",
+      "projectUniqueName": "/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionApplicationCore/PromotionApplicationCore.csproj",
       "projectName": "PromotionApplicationCore",
-      "projectPath": "/Users/dimplesingh/projects/Documents/Antra/PromotionMicroservice/PromotionApplicationCore/PromotionApplicationCore.csproj",
+      "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionApplicationCore/PromotionApplicationCore.csproj",
       "packagesPath": "/Users/dimplesingh/.nuget/packages/",
-      "outputPath": "/Users/dimplesingh/projects/Documents/Antra/PromotionMicroservice/PromotionApplicationCore/obj/",
+      "outputPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/PromotionMicroservice/PromotionApplicationCore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/dimplesingh/.nuget/NuGet/NuGet.Config"

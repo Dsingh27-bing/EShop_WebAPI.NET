@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dimplesingh/projects/Documents/Antra/ReviewsMicroservice/ReviewsInfrastructure/ReviewsInfrastructure.csproj": {}
+    "/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsInfrastructure/ReviewsInfrastructure.csproj": {}
   },
   "projects": {
-    "/Users/dimplesingh/projects/Documents/Antra/ReviewsMicroservice/ReviewsApplicationCore/ReviewsApplicationCore.csproj": {
+    "/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsApplicationCore/ReviewsApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dimplesingh/projects/Documents/Antra/ReviewsMicroservice/ReviewsApplicationCore/ReviewsApplicationCore.csproj",
+        "projectUniqueName": "/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsApplicationCore/ReviewsApplicationCore.csproj",
         "projectName": "ReviewsApplicationCore",
-        "projectPath": "/Users/dimplesingh/projects/Documents/Antra/ReviewsMicroservice/ReviewsApplicationCore/ReviewsApplicationCore.csproj",
+        "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsApplicationCore/ReviewsApplicationCore.csproj",
         "packagesPath": "/Users/dimplesingh/.nuget/packages/",
-        "outputPath": "/Users/dimplesingh/projects/Documents/Antra/ReviewsMicroservice/ReviewsApplicationCore/obj/",
+        "outputPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsApplicationCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dimplesingh/.nuget/NuGet/NuGet.Config"
@@ -105,14 +105,14 @@
         }
       }
     },
-    "/Users/dimplesingh/projects/Documents/Antra/ReviewsMicroservice/ReviewsInfrastructure/ReviewsInfrastructure.csproj": {
+    "/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsInfrastructure/ReviewsInfrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dimplesingh/projects/Documents/Antra/ReviewsMicroservice/ReviewsInfrastructure/ReviewsInfrastructure.csproj",
+        "projectUniqueName": "/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsInfrastructure/ReviewsInfrastructure.csproj",
         "projectName": "ReviewsInfrastructure",
-        "projectPath": "/Users/dimplesingh/projects/Documents/Antra/ReviewsMicroservice/ReviewsInfrastructure/ReviewsInfrastructure.csproj",
+        "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsInfrastructure/ReviewsInfrastructure.csproj",
         "packagesPath": "/Users/dimplesingh/.nuget/packages/",
-        "outputPath": "/Users/dimplesingh/projects/Documents/Antra/ReviewsMicroservice/ReviewsInfrastructure/obj/",
+        "outputPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsInfrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dimplesingh/.nuget/NuGet/NuGet.Config"
@@ -127,8 +127,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/dimplesingh/projects/Documents/Antra/ReviewsMicroservice/ReviewsApplicationCore/ReviewsApplicationCore.csproj": {
-                "projectPath": "/Users/dimplesingh/projects/Documents/Antra/ReviewsMicroservice/ReviewsApplicationCore/ReviewsApplicationCore.csproj"
+              "/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsApplicationCore/ReviewsApplicationCore.csproj": {
+                "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ReviewsMicroservice/ReviewsApplicationCore/ReviewsApplicationCore.csproj"
               }
             }
           }
