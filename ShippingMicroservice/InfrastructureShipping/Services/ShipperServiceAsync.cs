@@ -10,11 +10,13 @@ public class ShipperServiceAsync:IShipperServiceAsync
 {
     private readonly IMapper _mapper;
     private readonly IShippingRepositoryAsync _shippingRepositoryAsync;
+    private readonly IShipperRegionRepositoryAsync regionRepositoryAsync;
 
     public ShipperServiceAsync(IShippingRepositoryAsync shippingRepositoryAsync, IMapper mapper)
     {
         _mapper = mapper;
         _shippingRepositoryAsync = shippingRepositoryAsync;
+        this.regionRepositoryAsync = regionRepositoryAsync;
     }
     public async Task<IEnumerable<ShippingResponseModel>> GetAllAsync()
     {
@@ -44,5 +46,9 @@ public class ShipperServiceAsync:IShipperServiceAsync
     public Task<int> DeleteAsync(int id)
     {
         return _shippingRepositoryAsync.DeleteAsync(id);
+    }
+    public async Task<IEnumerable<ShippingResponseModel>> GetShipperByRegion(string region)
+    {
+        return _mapper.Map<IEnumerable<ShippingResponseModel>>(await regionRepositoryAsync.GetShipperByRegion(region));
     }
 }

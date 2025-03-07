@@ -10,7 +10,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<ShippingDbContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("ShippingDb"));
+    // options.UseSqlServer(builder.Configuration.GetConnectionString("ShippingDb"));
+    options.UseSqlServer(Environment.GetEnvironmentVariable("ShippingDb"));
 });
 
 
@@ -23,6 +24,14 @@ builder.Services.AddScoped<IShippingRepositoryAsync, ShippingRepositoryAsync>();
 
 
 builder.Services.AddAutoMapper(typeof(ApplicationMapper));
+builder.Services.AddCors(option =>
+{
+    option.AddDefaultPolicy(p =>
+    {
+        p.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+        
+    });
+});
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -43,7 +52,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-
+app.UseCors();
 app.MapControllers();
 
 app.Run();

@@ -1,0 +1,51 @@
+﻿services:
+  
+  ecommerceapp:
+    image: ecommerceapp
+    build:
+      context: .
+      dockerfile: ECommerceApp/Dockerfile
+    ports:
+      - "3123:8080"
+
+  productmicroservice:
+    image: productmicroservice
+    build:
+      context: .
+      dockerfile: ../../../projects/Documents/Antra/ProductMicroservice/ProductMicroservice/Dockerfile
+    ports:
+      - "4123:8080"
+
+  promotionmicroservice:
+    image: promotionmicroservice
+    build:
+      context: .
+      dockerfile: ../../../projects/Documents/Antra/PromotionMicroservice/PromotionMicroservice/Dockerfile
+    ports:
+      - "5123:8080"
+
+  reviewsmicroservice:
+    image: reviewsmicroservice
+    build:
+      context: .
+      dockerfile: ../../../projects/Documents/Antra/ReviewsMicroservice/ReviewsMicroservice/Dockerfile
+    ports:
+      - "6123:8080"
+
+  shippingmicroservice:
+    image: shippingmicroservice
+    build:
+      context: .
+      dockerfile: ../../../projects/Documents/Antra/ShippingMicroservice/ShippingMicroservice/Dockerfile
+    ports:
+      - "7123:8080"
+
+
+
+  inventorymicroservice:
+    image: inventorymicroservice
+    build:
+      context: .
+      dockerfile: ../InventoryMicroservice/InventoryMicroservice/Dockerfile
+    ports:
+        - "8123:8080"

@@ -1,0 +1,116 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  ecommerceapp:
+    build:
+      context: "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp"
+      dockerfile: "ECommerceApp/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net9.0/ECommerceApp.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "ecommerceapp:dev"
+    ports: []
+    volumes:
+    - "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp/ECommerceApp:/app:rw"
+    - "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp:/src:rw"
+    - "/Users/dimplesingh/.nuget/packages:/home/app/.nuget/packages"
+    working_dir: "/app"
+  inventorymicroservice:
+    build:
+      context: "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp"
+      dockerfile: "../InventoryMicroservice/InventoryMicroservice/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net9.0/InventoryMicroservice.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "inventorymicroservice:dev"
+    ports: []
+    volumes:
+    - "/Users/dimplesingh/github/EShop_WebAPI.NET/InventoryMicroservice/InventoryMicroservice:/app:rw"
+    - "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp:/src:rw"
+    - "/Users/dimplesingh/.nuget/packages:/home/app/.nuget/packages"
+    working_dir: "/app"
+  productmicroservice:
+    build:
+      context: "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp"
+      dockerfile: "../../../projects/Documents/Antra/ProductMicroservice/ProductMicroservice/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net9.0/ProductMicroservice.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "productmicroservice:dev"
+    ports: []
+    volumes:
+    - "/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductMicroservice:/app:rw"
+    - "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp:/src:rw"
+    - "/Users/dimplesingh/.nuget/packages:/home/app/.nuget/packages"
+    working_dir: "/app"
+  promotionmicroservice:
+    build:
+      context: "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp"
+      dockerfile: "../../../projects/Documents/Antra/PromotionMicroservice/PromotionMicroservice/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net9.0/PromotionMicroservice.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "promotionmicroservice:dev"
+    ports: []
+    volumes:
+    - "/Users/dimplesingh/projects/Documents/Antra/PromotionMicroservice/PromotionMicroservice:/app:rw"
+    - "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp:/src:rw"
+    - "/Users/dimplesingh/.nuget/packages:/home/app/.nuget/packages"
+    working_dir: "/app"
+  reviewsmicroservice:
+    build:
+      context: "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp"
+      dockerfile: "../../../projects/Documents/Antra/ReviewsMicroservice/ReviewsMicroservice/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net9.0/ReviewsMicroservice.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "reviewsmicroservice:dev"
+    ports: []
+    volumes:
+    - "/Users/dimplesingh/projects/Documents/Antra/ReviewsMicroservice/ReviewsMicroservice:/app:rw"
+    - "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp:/src:rw"
+    - "/Users/dimplesingh/.nuget/packages:/home/app/.nuget/packages"
+    working_dir: "/app"
+  shippingmicroservice:
+    build:
+      context: "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp"
+      dockerfile: "../../../projects/Documents/Antra/ShippingMicroservice/ShippingMicroservice/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net9.0/ShippingMicroservice.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "shippingmicroservice:dev"
+    ports: []
+    volumes:
+    - "/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/ShippingMicroservice:/app:rw"
+    - "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp:/src:rw"
+    - "/Users/dimplesingh/.nuget/packages:/home/app/.nuget/packages"
+    working_dir: "/app"

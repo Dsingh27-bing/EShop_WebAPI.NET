@@ -12,8 +12,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<ProductDbContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("ProductDB"));
+    // options.UseSqlServer(builder.Configuration.GetConnectionString("ProductDB"));
+    options.UseSqlServer(Environment.GetEnvironmentVariable("ProductDB"));
 });
+
 // Add services to the container.
 
 builder.Services.AddScoped<IProductServiceAsync, ProductServiceAsync>();

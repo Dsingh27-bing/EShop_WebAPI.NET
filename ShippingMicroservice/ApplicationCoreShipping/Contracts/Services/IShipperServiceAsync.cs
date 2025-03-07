@@ -9,4 +9,6 @@ public interface IShipperServiceAsync
     public Task<int> InsertAsync(ShippingRequestModel reqModel);
     public Task<int> UpdateAsync(ShippingRequestModel reqModel);
     public Task<int> DeleteAsync(int id);
+
+    public Task<IEnumerable<ShippingResponseModel>> GetShipperByRegion(string region);
 }

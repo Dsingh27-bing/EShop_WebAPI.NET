@@ -10,5 +10,5 @@ public class Shipper
     
     public IEnumerable<ShipperRegion> ShipperRegions { get; set; }
   
-    
+    public IEnumerable<ShippingDetails> ShippingDetails { get; set; }
 }

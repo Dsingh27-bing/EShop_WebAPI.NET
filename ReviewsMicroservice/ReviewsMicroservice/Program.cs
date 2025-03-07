@@ -11,7 +11,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddDbContext<ReviewsDbContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("ReviewDB"));
+    // options.UseSqlServer(builder.Configuration.GetConnectionString("ReviewDB"));
+    options.UseSqlServer(Environment.GetEnvironmentVariable("ReviewDB"));
 });
 
 

@@ -49,5 +49,23 @@ public class ShippingController : ControllerBase
     return Ok(result);
   }
   
+  [HttpGet("shipper/region/{region}")]
+  public async Task<IActionResult> GetShippersByRegion(string region)
+  {
+    var response = await _shipperServiceAsync.GetShipperByRegion(region);
+    return Ok(response);
+  }
+
+  [HttpPut("[action]")]
+  public async Task<IActionResult> UpdateOrderStatus(int id, [FromBody] OrderState status)
+  {
+    var response = await _orderServiceAsync.UpdateOrderStatusAsync(id, status);
+    
+    if (response != null)
+    {
+        return Ok();
+    }
+    return BadRequest();
+  }
   
 }
