@@ -18,5 +18,7 @@ public interface IOrderServiceAsync
     Task<OrderResponseModel> CancelOrder(int orderId);//new update status
     Task<Order> OrderCompleted(int orderId);//new update
     Task<int> UpdateOrder(OrderRequestModel reqModel);//new update
+
+    Task<bool> UpdateOrderStatus(int orderId, OrderStatus status);
     
 }

@@ -2,7 +2,7 @@
 services:
   ecommerceapp:
     build:
-      context: "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp"
+      context: "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice"
       dockerfile: "ECommerceApp/Dockerfile"
       target: "base"
     command: []
@@ -15,13 +15,13 @@ services:
     image: "ecommerceapp:dev"
     ports: []
     volumes:
-    - "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp/ECommerceApp:/app:rw"
-    - "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp:/src:rw"
+    - "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice/ECommerceApp:/app:rw"
+    - "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice:/src:rw"
     - "/Users/dimplesingh/.nuget/packages:/home/app/.nuget/packages"
     working_dir: "/app"
   inventorymicroservice:
     build:
-      context: "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp"
+      context: "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice"
       dockerfile: "../InventoryMicroservice/InventoryMicroservice/Dockerfile"
       target: "base"
     command: []
@@ -35,12 +35,12 @@ services:
     ports: []
     volumes:
     - "/Users/dimplesingh/github/EShop_WebAPI.NET/InventoryMicroservice/InventoryMicroservice:/app:rw"
-    - "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp:/src:rw"
+    - "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice:/src:rw"
     - "/Users/dimplesingh/.nuget/packages:/home/app/.nuget/packages"
     working_dir: "/app"
   productmicroservice:
     build:
-      context: "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp"
+      context: "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice"
       dockerfile: "../../../projects/Documents/Antra/ProductMicroservice/ProductMicroservice/Dockerfile"
       target: "base"
     command: []
@@ -54,12 +54,12 @@ services:
     ports: []
     volumes:
     - "/Users/dimplesingh/projects/Documents/Antra/ProductMicroservice/ProductMicroservice:/app:rw"
-    - "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp:/src:rw"
+    - "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice:/src:rw"
     - "/Users/dimplesingh/.nuget/packages:/home/app/.nuget/packages"
     working_dir: "/app"
   promotionmicroservice:
     build:
-      context: "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp"
+      context: "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice"
       dockerfile: "../../../projects/Documents/Antra/PromotionMicroservice/PromotionMicroservice/Dockerfile"
       target: "base"
     command: []
@@ -73,12 +73,12 @@ services:
     ports: []
     volumes:
     - "/Users/dimplesingh/projects/Documents/Antra/PromotionMicroservice/PromotionMicroservice:/app:rw"
-    - "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp:/src:rw"
+    - "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice:/src:rw"
     - "/Users/dimplesingh/.nuget/packages:/home/app/.nuget/packages"
     working_dir: "/app"
   reviewsmicroservice:
     build:
-      context: "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp"
+      context: "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice"
       dockerfile: "../../../projects/Documents/Antra/ReviewsMicroservice/ReviewsMicroservice/Dockerfile"
       target: "base"
     command: []
@@ -92,12 +92,12 @@ services:
     ports: []
     volumes:
     - "/Users/dimplesingh/projects/Documents/Antra/ReviewsMicroservice/ReviewsMicroservice:/app:rw"
-    - "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp:/src:rw"
+    - "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice:/src:rw"
     - "/Users/dimplesingh/.nuget/packages:/home/app/.nuget/packages"
     working_dir: "/app"
   shippingmicroservice:
     build:
-      context: "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp"
+      context: "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice"
       dockerfile: "../../../projects/Documents/Antra/ShippingMicroservice/ShippingMicroservice/Dockerfile"
       target: "base"
     command: []
@@ -111,6 +111,6 @@ services:
     ports: []
     volumes:
     - "/Users/dimplesingh/projects/Documents/Antra/ShippingMicroservice/ShippingMicroservice:/app:rw"
-    - "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp:/src:rw"
+    - "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice:/src:rw"
     - "/Users/dimplesingh/.nuget/packages:/home/app/.nuget/packages"
     working_dir: "/app"

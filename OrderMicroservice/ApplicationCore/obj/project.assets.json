@@ -5313,11 +5313,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp/ApplicationCore/ApplicationCore.csproj",
+      "projectUniqueName": "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice/ApplicationCore/ApplicationCore.csproj",
       "projectName": "ApplicationCore",
-      "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp/ApplicationCore/ApplicationCore.csproj",
+      "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice/ApplicationCore/ApplicationCore.csproj",
       "packagesPath": "/Users/dimplesingh/.nuget/packages/",
-      "outputPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp/ApplicationCore/obj/",
+      "outputPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice/ApplicationCore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/dimplesingh/.nuget/NuGet/NuGet.Config"

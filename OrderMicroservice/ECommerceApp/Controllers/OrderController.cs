@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using ApplicationCore.Contracts.Services;
+using ApplicationCore.Entities;
 using ApplicationCore.Helper;
 using ApplicationCore.Model.RequestModels;
 using ApplicationCore.Model.ResponseModels;
@@ -94,6 +95,19 @@ namespace ECommerceApp.Controllers
             var response = await _orderService.OrderCompleted(orderId);
             await notification.AddMessagetoQueue(JsonConvert.SerializeObject(response));
             return Ok(response);
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> UpdateOrderStatus(int orderId,OrderStatus status)
+        {
+            
+            var response = await _orderService.UpdateOrderStatus(orderId, status);
+            if (response)
+            {
+                return Ok();
+            }
+            return BadRequest();
+            
         }
         
       

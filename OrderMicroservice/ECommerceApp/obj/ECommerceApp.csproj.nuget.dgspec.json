@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp/ECommerceApp/ECommerceApp.csproj": {}
+    "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice/ECommerceApp/ECommerceApp.csproj": {}
   },
   "projects": {
-    "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp/ApplicationCore/ApplicationCore.csproj": {
+    "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice/ApplicationCore/ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp/ApplicationCore/ApplicationCore.csproj",
+        "projectUniqueName": "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice/ApplicationCore/ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp/ApplicationCore/ApplicationCore.csproj",
+        "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice/ApplicationCore/ApplicationCore.csproj",
         "packagesPath": "/Users/dimplesingh/.nuget/packages/",
-        "outputPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp/ApplicationCore/obj/",
+        "outputPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice/ApplicationCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dimplesingh/.nuget/NuGet/NuGet.Config"
@@ -113,14 +113,14 @@
         }
       }
     },
-    "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp/ECommerceApp/ECommerceApp.csproj": {
+    "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice/ECommerceApp/ECommerceApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp/ECommerceApp/ECommerceApp.csproj",
+        "projectUniqueName": "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice/ECommerceApp/ECommerceApp.csproj",
         "projectName": "ECommerceApp",
-        "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp/ECommerceApp/ECommerceApp.csproj",
+        "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice/ECommerceApp/ECommerceApp.csproj",
         "packagesPath": "/Users/dimplesingh/.nuget/packages/",
-        "outputPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp/ECommerceApp/obj/",
+        "outputPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice/ECommerceApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dimplesingh/.nuget/NuGet/NuGet.Config"
@@ -135,8 +135,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp/Infrastructure/Infrastructure.csproj"
+              "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -233,14 +233,14 @@
         }
       }
     },
-    "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp/Infrastructure/Infrastructure.csproj": {
+    "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp/Infrastructure/Infrastructure.csproj",
+        "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice/Infrastructure/Infrastructure.csproj",
         "packagesPath": "/Users/dimplesingh/.nuget/packages/",
-        "outputPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp/Infrastructure/obj/",
+        "outputPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dimplesingh/.nuget/NuGet/NuGet.Config"
@@ -255,8 +255,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp/ApplicationCore/ApplicationCore.csproj": {
-                "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/ECommerceApp/ApplicationCore/ApplicationCore.csproj"
+              "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice/ApplicationCore/ApplicationCore.csproj": {
+                "projectPath": "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice/ApplicationCore/ApplicationCore.csproj"
               }
             }
           }

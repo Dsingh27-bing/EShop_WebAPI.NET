@@ -57,7 +57,7 @@ public class ShippingController : ControllerBase
   }
 
   [HttpPut("[action]")]
-  public async Task<IActionResult> UpdateOrderStatus(int id, [FromBody] OrderState status)
+  public async Task<IActionResult> UpdateOrderStatus(int id, OrderState status)
   {
     var response = await _orderServiceAsync.UpdateOrderStatusAsync(id, status);
     
