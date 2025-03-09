@@ -1,0 +1,14 @@
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/JwtAuthenticationManager/bin/Debug/net9.0/JwtAuthenticationManager.deps.json
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/JwtAuthenticationManager/bin/Debug/net9.0/JwtAuthenticationManager.runtimeconfig.json
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/JwtAuthenticationManager/bin/Debug/net9.0/JwtAuthenticationManager.dll
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/JwtAuthenticationManager/bin/Debug/net9.0/JwtAuthenticationManager.pdb
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/JwtAuthenticationManager/obj/Debug/net9.0/JwtAuthenticationManager.csproj.AssemblyReference.cache
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/JwtAuthenticationManager/obj/Debug/net9.0/JwtAuthenticationManager.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/JwtAuthenticationManager/obj/Debug/net9.0/JwtAuthenticationManager.AssemblyInfoInputs.cache
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/JwtAuthenticationManager/obj/Debug/net9.0/JwtAuthenticationManager.AssemblyInfo.cs
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/JwtAuthenticationManager/obj/Debug/net9.0/JwtAuthenticationManager.csproj.CoreCompileInputs.cache
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/JwtAuthenticationManager/obj/Debug/net9.0/JwtAuthenticationManager.dll
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/JwtAuthenticationManager/obj/Debug/net9.0/refint/JwtAuthenticationManager.dll
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/JwtAuthenticationManager/obj/Debug/net9.0/JwtAuthenticationManager.pdb
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/JwtAuthenticationManager/obj/Debug/net9.0/JwtAuthenticationManager.genruntimeconfig.cache
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/JwtAuthenticationManager/obj/Debug/net9.0/ref/JwtAuthenticationManager.dll

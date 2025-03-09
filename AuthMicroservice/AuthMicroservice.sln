@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthMicroservice", "AuthMicroservice\AuthMicroservice.csproj", "{1ABA4D1E-FA0B-4CC9-AF6A-16A134AAA013}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationApplicationCore", "AuthenticationApplicationCore\AuthenticationApplicationCore.csproj", "{A6EB4D66-F83F-4BA9-8BE9-4AB1135DB347}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationInfrastructure", "AuthenticationInfrastructure\AuthenticationInfrastructure.csproj", "{EB4AEB66-36EA-4A12-9345-93203034CB28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthenticationManager", "JwtAuthenticationManager\JwtAuthenticationManager.csproj", "{9748AFAE-8488-4BDB-88EB-E2E93FB00617}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1ABA4D1E-FA0B-4CC9-AF6A-16A134AAA013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ABA4D1E-FA0B-4CC9-AF6A-16A134AAA013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ABA4D1E-FA0B-4CC9-AF6A-16A134AAA013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ABA4D1E-FA0B-4CC9-AF6A-16A134AAA013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6EB4D66-F83F-4BA9-8BE9-4AB1135DB347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6EB4D66-F83F-4BA9-8BE9-4AB1135DB347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6EB4D66-F83F-4BA9-8BE9-4AB1135DB347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6EB4D66-F83F-4BA9-8BE9-4AB1135DB347}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB4AEB66-36EA-4A12-9345-93203034CB28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB4AEB66-36EA-4A12-9345-93203034CB28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB4AEB66-36EA-4A12-9345-93203034CB28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB4AEB66-36EA-4A12-9345-93203034CB28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9748AFAE-8488-4BDB-88EB-E2E93FB00617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9748AFAE-8488-4BDB-88EB-E2E93FB00617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9748AFAE-8488-4BDB-88EB-E2E93FB00617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9748AFAE-8488-4BDB-88EB-E2E93FB00617}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

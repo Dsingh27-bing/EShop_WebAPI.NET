@@ -1,0 +1,14 @@
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationApplicationCore/bin/Debug/net9.0/AuthenticationApplicationCore.deps.json
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationApplicationCore/bin/Debug/net9.0/AuthenticationApplicationCore.runtimeconfig.json
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationApplicationCore/bin/Debug/net9.0/AuthenticationApplicationCore.dll
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationApplicationCore/bin/Debug/net9.0/AuthenticationApplicationCore.pdb
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationApplicationCore/obj/Debug/net9.0/AuthenticationApplicationCore.csproj.AssemblyReference.cache
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationApplicationCore/obj/Debug/net9.0/AuthenticationApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationApplicationCore/obj/Debug/net9.0/AuthenticationApplicationCore.AssemblyInfoInputs.cache
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationApplicationCore/obj/Debug/net9.0/AuthenticationApplicationCore.AssemblyInfo.cs
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationApplicationCore/obj/Debug/net9.0/AuthenticationApplicationCore.csproj.CoreCompileInputs.cache
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationApplicationCore/obj/Debug/net9.0/AuthenticationApplicationCore.dll
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationApplicationCore/obj/Debug/net9.0/refint/AuthenticationApplicationCore.dll
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationApplicationCore/obj/Debug/net9.0/AuthenticationApplicationCore.pdb
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationApplicationCore/obj/Debug/net9.0/AuthenticationApplicationCore.genruntimeconfig.cache
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationApplicationCore/obj/Debug/net9.0/ref/AuthenticationApplicationCore.dll

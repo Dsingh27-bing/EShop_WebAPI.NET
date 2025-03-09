@@ -49,3 +49,12 @@
       dockerfile: ../InventoryMicroservice/InventoryMicroservice/Dockerfile
     ports:
         - "8123:8080"
+    
+
+  authmicroservice:
+    image: authmicroservice
+    build:
+      context: .
+      dockerfile: ../../../projects/Documents/Antra/AuthMicroservice/AuthMicroservice/Dockerfile
+    ports:
+      - "9123:8080"

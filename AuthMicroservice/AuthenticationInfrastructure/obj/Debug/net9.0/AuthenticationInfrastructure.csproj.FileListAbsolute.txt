@@ -1,0 +1,17 @@
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationInfrastructure/bin/Debug/net9.0/AuthenticationInfrastructure.deps.json
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationInfrastructure/bin/Debug/net9.0/AuthenticationInfrastructure.runtimeconfig.json
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationInfrastructure/bin/Debug/net9.0/AuthenticationInfrastructure.dll
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationInfrastructure/bin/Debug/net9.0/AuthenticationInfrastructure.pdb
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationInfrastructure/bin/Debug/net9.0/AuthenticationApplicationCore.dll
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationInfrastructure/bin/Debug/net9.0/AuthenticationApplicationCore.pdb
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationInfrastructure/obj/Debug/net9.0/AuthenticationInfrastructure.csproj.AssemblyReference.cache
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationInfrastructure/obj/Debug/net9.0/AuthenticationInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationInfrastructure/obj/Debug/net9.0/AuthenticationInfrastructure.AssemblyInfoInputs.cache
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationInfrastructure/obj/Debug/net9.0/AuthenticationInfrastructure.AssemblyInfo.cs
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationInfrastructure/obj/Debug/net9.0/AuthenticationInfrastructure.csproj.CoreCompileInputs.cache
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationInfrastructure/obj/Debug/net9.0/Authenti.2D866D97.Up2Date
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationInfrastructure/obj/Debug/net9.0/AuthenticationInfrastructure.dll
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationInfrastructure/obj/Debug/net9.0/refint/AuthenticationInfrastructure.dll
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationInfrastructure/obj/Debug/net9.0/AuthenticationInfrastructure.pdb
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationInfrastructure/obj/Debug/net9.0/AuthenticationInfrastructure.genruntimeconfig.cache
+/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthenticationInfrastructure/obj/Debug/net9.0/ref/AuthenticationInfrastructure.dll

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InventoryMicroservice")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5abba92d3caa763e201c31794e6158d2b642b54f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9bc7b904b6ef77c4362a34b87e58f3b6afbe488f")]
 [assembly: System.Reflection.AssemblyProductAttribute("InventoryMicroservice")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InventoryMicroservice")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

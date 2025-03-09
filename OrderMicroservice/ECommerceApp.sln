@@ -49,6 +49,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InventoryMicroservice", "In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryMicroservice", "..\InventoryMicroservice\InventoryMicroservice\InventoryMicroservice.csproj", "{A4597371-628F-42FA-9AA8-76E87B671E80}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AuthMicroservice", "AuthMicroservice", "{591A6B7B-8365-4BCC-B241-310C41076B7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationApplicationCore", "..\..\..\projects\Documents\Antra\AuthMicroservice\AuthenticationApplicationCore\AuthenticationApplicationCore.csproj", "{58CE446B-85A8-444D-B434-D6FBA1118E9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationInfrastructure", "..\..\..\projects\Documents\Antra\AuthMicroservice\AuthenticationInfrastructure\AuthenticationInfrastructure.csproj", "{3387243E-1F2C-4555-B96F-E2DC12A76248}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthMicroservice", "..\..\..\projects\Documents\Antra\AuthMicroservice\AuthMicroservice\AuthMicroservice.csproj", "{926EA196-33A0-422E-83C7-CC7E7A87B728}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthenticationManager", "..\..\..\projects\Documents\Antra\AuthMicroservice\JwtAuthenticationManager\JwtAuthenticationManager.csproj", "{853102DF-5F51-4618-8CA1-7C22CFE996FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -119,6 +129,22 @@ Global
 		{A4597371-628F-42FA-9AA8-76E87B671E80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4597371-628F-42FA-9AA8-76E87B671E80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4597371-628F-42FA-9AA8-76E87B671E80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58CE446B-85A8-444D-B434-D6FBA1118E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58CE446B-85A8-444D-B434-D6FBA1118E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58CE446B-85A8-444D-B434-D6FBA1118E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58CE446B-85A8-444D-B434-D6FBA1118E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3387243E-1F2C-4555-B96F-E2DC12A76248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3387243E-1F2C-4555-B96F-E2DC12A76248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3387243E-1F2C-4555-B96F-E2DC12A76248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3387243E-1F2C-4555-B96F-E2DC12A76248}.Release|Any CPU.Build.0 = Release|Any CPU
+		{926EA196-33A0-422E-83C7-CC7E7A87B728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{926EA196-33A0-422E-83C7-CC7E7A87B728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{926EA196-33A0-422E-83C7-CC7E7A87B728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{926EA196-33A0-422E-83C7-CC7E7A87B728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{853102DF-5F51-4618-8CA1-7C22CFE996FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{853102DF-5F51-4618-8CA1-7C22CFE996FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{853102DF-5F51-4618-8CA1-7C22CFE996FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{853102DF-5F51-4618-8CA1-7C22CFE996FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FB750DFB-14D0-461A-AF24-E199DA0040D2} = {C9A60DEB-FCB8-4F47-B1AF-1D7505E2E268}
@@ -137,5 +163,9 @@ Global
 		{A766DD28-E7F7-40EC-B9BA-63BA8B69854D} = {4650FD5F-C997-4F28-B088-5EBA987AFEF4}
 		{60E8670D-C16E-44FE-A992-E3609BB6854E} = {4650FD5F-C997-4F28-B088-5EBA987AFEF4}
 		{A4597371-628F-42FA-9AA8-76E87B671E80} = {5D4173B8-ACD9-404A-AC33-C239ACC662F2}
+		{58CE446B-85A8-444D-B434-D6FBA1118E9B} = {591A6B7B-8365-4BCC-B241-310C41076B7B}
+		{3387243E-1F2C-4555-B96F-E2DC12A76248} = {591A6B7B-8365-4BCC-B241-310C41076B7B}
+		{926EA196-33A0-422E-83C7-CC7E7A87B728} = {591A6B7B-8365-4BCC-B241-310C41076B7B}
+		{853102DF-5F51-4618-8CA1-7C22CFE996FD} = {591A6B7B-8365-4BCC-B241-310C41076B7B}
 	EndGlobalSection
 EndGlobal

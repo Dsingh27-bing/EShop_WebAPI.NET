@@ -1,5 +1,24 @@
 # This is a generated file. Not intended for manual editing.
 services:
+  authmicroservice:
+    build:
+      context: "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice"
+      dockerfile: "../../../projects/Documents/Antra/AuthMicroservice/AuthMicroservice/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net9.0/AuthMicroservice.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "authmicroservice:dev"
+    ports: []
+    volumes:
+    - "/Users/dimplesingh/projects/Documents/Antra/AuthMicroservice/AuthMicroservice:/app:rw"
+    - "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice:/src:rw"
+    - "/Users/dimplesingh/.nuget/packages:/home/app/.nuget/packages"
+    working_dir: "/app"
   ecommerceapp:
     build:
       context: "/Users/dimplesingh/github/EShop_WebAPI.NET/OrderMicroservice"
